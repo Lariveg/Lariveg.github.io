@@ -1,0 +1,197 @@
+
+html { 
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+  }
+
+#page-wrapper {
+    color: #494C4E;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 0;
+}
+
+#mainHeader {
+    font-size: 2.2em;
+    background-color: #fff!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+#mainHeader>button {
+    margin: 0 auto;
+}
+
+#collapseHeader {
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #494C4E;
+    border-width: 2px;
+}
+
+/* .scrolled .navbar-toggler {
+    border-color: #eee !important;
+    transition: border-color 200ms linear;
+}
+
+.scrolled .navbar-nav .nav-link {
+    color: #eee !important;
+    transition: color 200ms linear;
+}
+*/
+
+#mainHeader.scrolled {
+    background-color: #CFD8DC !important;
+    transition: background-color 200ms linear;
+  } 
+
+.profile-image {
+    max-width: 330px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #D4CCCC;
+    transition: transform .5s;
+}
+
+.profile-image:hover {
+    max-width: 330px;
+    transform: scale(1.05);
+}
+
+.intro-title {
+    display: none;
+}
+
+.intro>p {
+    display: none;
+}
+
+.intro-title {
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 3em;
+    color: rgba(73,76,78, .8);
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+}
+
+.title-font {
+    font-size: 3.5em;
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+}
+.title {
+    background-color: #78909C;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%;
+    max-width: 10000px; 
+}  
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.intro p {
+    font-size: 1.8em;
+    line-height: 1.6em;
+    margin-bottom: 0.3em;
+}
+
+#about, #projects, #skills, #contact {
+    margin-top: 70px;
+}
+
+#about h1, 
+#projects>h1,
+#skills h1,
+#contact h1 {
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+
+#about p, 
+#projects p,
+#skills p,
+#contact p {
+    font-size: 1.8em;
+    line-height: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 2.2em;
+    line-height: 1.6em;
+}
+
+#skills li span {
+    font-size: 0.9em;
+    margin-right: 6px;
+}
+
+#skills li {
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.projects-details h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.carouselWrapper{
+    max-width: 320px;
+    margin: 20px auto 0;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: -9px;
+}
+
+#contact p, #contact h2 {
+    font-size: 2.2em;
+}
+
+#contact p, .icon {
+    display: inline-block;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+#contact h2, #contact{
+    margin-bottom: 20px;
+}
+
